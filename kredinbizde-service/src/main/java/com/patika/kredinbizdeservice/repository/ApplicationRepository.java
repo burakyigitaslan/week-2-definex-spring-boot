@@ -12,6 +12,7 @@ import java.util.stream.Collectors;
 public class ApplicationRepository  {
     private final List<Application> applicationList = new ArrayList<>();
 
+    public void save(Application application) {applicationList.add(application);}
     public List<Application> getAll() {
         return applicationList;
     }

@@ -16,6 +16,13 @@ public class ApplicationServiceImpl implements ApplicationService{
     }
 
     @Override
+    public Application save(Application application) {
+        applicationRepository.save(application);
+
+        return application;
+    }
+
+    @Override
     public List<Application> getAll() {
         return applicationRepository.getAll();
     }
