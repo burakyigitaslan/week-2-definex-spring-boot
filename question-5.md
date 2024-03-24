@@ -1,0 +1,29 @@
+﻿**DOCKER KOMUTLARI**
+
+- **docker pull:** Bir Docker imajını uzak bir kayıt defterinden (registry) çekmek için kullanılır. Örneğin, docker pull nginx komutu, nginx imajını Docker Hub'dan çeker.
+- **docker images:** Sistemde bulunan tüm Docker imajlarını listeler.
+- **docker run:** Bir Docker imajından bir konteyner çalıştırır. Örneğin, docker run nginx komutu, nginx imajından bir konteyner başlatır.
+- **docker ps:** Şu anda çalışmakta olan konteynerleri listeler.
+- **docker stop:** Belirli bir konteyneri durdurur. Örneğin, docker stop my-nginx-container komutu, my-nginx-container adlı konteyneri durdurur.
+- **docker start:** Durdurulmuş bir konteyneri yeniden başlatır. Örneğin, docker start my-nginx-container komutu, my-nginx-container adlı konteyneri başlatır.
+- **docker exec:** Çalışan bir konteynerin içinde terminal oturumu başlatır. Bu sayede, konteynerın içerisindeki komutlar çalıştırılabilir.
+- **docker attach:** Terminali çalışan bir konteynera bağlar.
+- **docker kill:** Çalışan bir konteyneri zorla durdurur.
+- **docker search:** Docker Hub'da belirli bir isme sahip imajları arar.
+- **docker rmi:** Yerel sistemden bir Docker imajını siler.
+- **docker logs:** Çalışan bir konteyner tarafından oluşturulan logları görüntüler.
+- **docker wait:** Belirli bir konteynerin çalışmasını bekletir.
+- **docker network ls:** Docker ağlarını listeler.
+- **docker network create:** Yeni bir Docker ağı oluşturur.
+- **docker network connect:** Bir konteyneri bir ağa bağlar.
+- **docker network disconnect:** Bir konteyneri bir ağdan ayırır.
+- **docker network inspect:** Belirli bir Docker ağı hakkında bilgi görüntüler.
+- **docker network prune:** Kullanılmayan Docker ağlarını temizler.
+- **docker volume create:** Yeni bir Docker veri birimi oluşturur.
+- **docker volume inspect:** Belirli bir Docker veri birimi hakkında bilgi görüntüler.
+- **docker volume prune:** Kullanılmayan Docker veri birimlerini temizler.
+- **docker volume rm:** Bir Docker veri birimini siler.
+- **docker build:** Bir Dockerfile kullanarak bir Docker imajı oluşturur.
+- **docker-compose up:** docker-compose.yml dosyasında tanımlanan tüm hizmetleri başlatır. 
+- **docker-compose down:** docker-compose.yml dosyasında tanımlanan tüm hizmetleri durdurur ve ilişkili Docker ağlarını kaldırır.
+- **docker-compose build:** docker-compose.yml dosyasında tanımlanan tüm hizmetler için Docker imajlarını yeniden oluşturur. 
